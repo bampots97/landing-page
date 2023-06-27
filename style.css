@@ -1,0 +1,85 @@
+.top-section {
+    background-color: #1F2937;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15em;
+    height: 35vh;
+    position: relative;
+    margin-top:-20px;
+}       
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #3882f6;
+
+}
+ol {
+    display: flex;
+    justify-content: end;
+    gap: 24px;
+    font-size: 18px;
+    color: #E5e7eb;
+    list-style: none;
+    position: relative;
+    top:-13em;
+    right: 4em;
+    padding-right: 5%;
+    
+    
+}
+h2.header {
+    font-size: 24px;
+    color: #F9FAF8;
+    justify-content: start;
+    padding-left: 3em;
+    line-height: 1.2;
+    position: relative;
+    top: 0.5em;
+}
+h1.main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    justify-content: start;
+    padding-left: 1.3em;
+    margin: 0;
+    margin-bottom: 15;
+    margin-top: 75px;
+    line-height: 1.2;
+}
+a {
+    text-decoration: none;
+    color:#F9FAF8;
+}
+a.hlink {
+    color: #E5e7eb;
+}
+button {
+    background-color: #3882f6;
+    border: #1F2937;
+    border-radius: 5px;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: 4em;
+    font: bold;
+    font-size: large;
+    color:#E5e7eb;
+}
+a.pic {
+  text-decoration: none;
+  background-color:rgb(132, 130, 130);
+  color: #F9FAF8;
+  position: relative;
+  top: -30%;
+  right: -70%;
+  border: 70px solid rgb(132, 130, 130);
+  
+
+}
+p.sub-text {
+    padding-left: 4em;
+    color: #E5e7eb;
+  margin: 0;    
+  border: 2px solid rgb(13, 15, 15); /* Set the border width and color */
+  max-width: 560px; /* Adjust the max-width as needed */
+  color: #E5e7eb;
+}
