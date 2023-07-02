@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
     body {
-    background-color: rgb(0, 55, 15);
+    background-color: rgb(251, 251, 251);
     height: 100vh;
 }
 .headercontainer{
@@ -96,6 +96,9 @@ div.rightside{
     margin-right: 100px;
 }
 
+
+
+
 main {
     background-color: azure;
     height: 30vh;
@@ -104,7 +107,6 @@ main {
     justify-content: flex-start;
     align-items: center;
 }
-
 .main ul {
     display: flex;
     justify-content: center;
@@ -122,14 +124,15 @@ gap: 150px;
     align-items: center;
     padding: 10px;
     gap: 50px;
-    border-radius: 25px;   
+    border-radius: 25px;
     padding: 20px;
     width: 200px;
     height: 200px;
     border: 5px solid #3882F6;
     margin-bottom: 30px;
-    text-align: center;
+    text-align: center; 
 }
+
 main h1 {
    margin-bottom: 80px;
    margin-top: 30px;
@@ -142,22 +145,90 @@ main h1 {
     border: 5px hidden #1f2937;
     padding: 10px;
     margin-bottom: 10px;
+
+
+
+
 }
-section {
+section.s1 {
     background-color: #c2c2c2;
-    height: 18vh;
+    height: 24vh;
     display: flex;
     text-align: center;
     justify-content: center;
 
 }
-section p {
-    margin-top: 100px;
+section.s1 p {
+    margin-top: 130px;
     font-style: italic;
     font-size: 36px;
+    opacity: 0.5;
 }
-section h3{
+section.s1 h3{
     padding-top: 50px;
     padding-left: 39em;
     font-size: 24px;
+}
+section.s2 {
+    height: 25vh ;
+    
+}
+div.signup-two {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 150px;
+   margin-bottom: 50px;
+   min-height: 150px;
+   border: #e5e7eb;
+   border-radius: 10px;
+   padding-top: 0;
+   width: 80em;
+   color: #e5e7eb;
+   
+
+}
+.signup-two button {
+    position: relative;
+    bottom:25px;
+    left: 20em;
+    background-color: #3882F6;
+    border: 2px solid #e5e7eb;
+    border-radius: 5px;
+    font-size: 23px;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 5px 20px;
+}
+
+.signup-two h2,
+.signup-two p{
+display: flex;
+justify-content: flex-start;
+flex-direction: column;
+margin-right:20em;
+position: relative;
+top: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #1f2937;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
 }
