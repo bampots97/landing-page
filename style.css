@@ -49,7 +49,7 @@ nav {
     
 }
 
-ul {
+ul.top {
     list-style: none;
     display: flex;
     gap: 24px;
@@ -94,4 +94,70 @@ div.rightside{
     height: 250px;
     margin-top: 100px;
     margin-right: 100px;
+}
+
+main {
+    background-color: azure;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 400;
+gap: 150px;
+}
+
+.main ul li {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 50px;
+    border-radius: 25px;   
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882F6;
+    margin-bottom: 30px;
+    text-align: center;
+}
+main h1 {
+   margin-bottom: 80px;
+   margin-top: 30px;
+   align-items: center;
+   font-size: 30px;
+}
+.main ul li p {
+    margin-top:200px;
+    min-width: fit-content;
+    border: 5px hidden #1f2937;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+section {
+    background-color: #c2c2c2;
+    height: 18vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+section p {
+    margin-top: 100px;
+    font-style: italic;
+    font-size: 36px;
+}
+section h3{
+    padding-top: 50px;
+    padding-left: 39em;
+    font-size: 24px;
 }
